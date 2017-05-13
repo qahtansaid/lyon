@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.qq_phone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ok3"
+        android:label="LyonPhone"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".TopMenuActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".oppo" />
+        <activity android:name=".a3" />
+        <activity android:name=".a5" />
+        <activity android:name=".note4" />
+        <activity android:name=".ip5"></activity>
+    </application>
+
+</manifest>
